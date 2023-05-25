@@ -233,6 +233,10 @@ background-color: #f4f4fd;
 border-radius: 4px; 
 margin-bottom: 8px; 
 }
+svg {
+width: 64px;
+height: 64px;
+}
 
 /* --------what are we doing------------------------ */
 .doing-section{
