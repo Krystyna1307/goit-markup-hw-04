@@ -5,6 +5,8 @@
 --page-background-color: #FFFFFF;
 --btn-portfolio: #E7E9FC;
 --customers-icon: #8E8F99;
+--svg-fill: #f4f4fd;
+
 }
 
 ul{
@@ -305,6 +307,12 @@ width: 40px;
 height: 40px;
 border-radius: 50%;
 background-color: var(--accent-color);
+fill: var(--svg-fill);
+}
+
+.social-list-link:hover,
+.social-list-link:focus{
+background-color: #404bbf; 
 }
 
 /* -----------customers------------------- */ */
