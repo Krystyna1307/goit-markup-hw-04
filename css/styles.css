@@ -306,6 +306,11 @@ color: var(--title-text-color);
 margin-bottom: 72px; 
 text-align: center;
 }
+.customers-sestion {
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
 .customers-item {
 display: flex; 
 gap: 24px; 
