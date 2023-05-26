@@ -274,6 +274,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 }
 
 .team-name {
@@ -285,18 +286,28 @@ width: 264px;
 }
 
 .name-specialty {
-padding: 32px 16px;
+padding-top: 32px;
+
 text-align: center;
 }
 
 .social-list {
+margin-bottom: 32px;
 display: flex;
 justify-content: center; 
 gap: 24px;
-
 } 
+.social-list-link{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-color: var(--accent-color);
+}
 
-/* -----------customers------------------- */
+/* -----------customers------------------- */ */
 .customers {
 font-size: 36px;
 line-height: 1.11;
@@ -339,6 +350,15 @@ color: #404bbf;
 .cust-item-link {
 fill: currentColor;
 }
+
+.
+
+/* .social-list-item {
+height: 40px;
+width: 40px;
+background-color: 4D5AE5;
+} */
+
 
 /*---------------Footer--------------*/
 
