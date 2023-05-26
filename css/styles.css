@@ -351,20 +351,13 @@ color: #404bbf;
 fill: currentColor;
 }
 
-.
-
-/* .social-list-item {
-height: 40px;
-width: 40px;
-background-color: 4D5AE5;
-} */
-
 
 /*---------------Footer--------------*/
 
 .footer-logo-page{
 background-color: var(--title-text-color);
 padding: 100px 0;
+display: flex;
 }
 
 .footer-logo {
@@ -383,8 +376,22 @@ font-size: 16px;
 line-height: 1.5;
 color: #F4F4FD;
 max-width: 264px;
-}
 
+}
+.footer{
+
+align-items: baseline;
+margin-right: 120px;
+}
+.footer-name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--page-background-color);
+margin-bottom: 16px;
+display: flex;
+}
 
 /*------------Portfolio--------*/
 
