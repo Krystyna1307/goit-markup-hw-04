@@ -212,9 +212,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-
 margin-bottom: 8px;
-
 color: var(--title-text-color);
 display: flex;
 }
@@ -310,17 +308,16 @@ text-align: center;
 padding-top: 120px;
 padding-bottom: 120px;
 }
-
 .customers-item {
 display: flex; 
 gap: 24px; 
 }
-
 .customers-icon{
 width: calc((100% - 120px) / 6);
 height: 88px;
 color: var(--customers-icon);
 }
+
 .link-cust-icon {
 width: 100%;
 height: 100%;
@@ -331,6 +328,18 @@ align-items: center;
 justify-content: center; 
 color: var(--customers-icon);
 }
+.link-cust-icon:hover,
+.link-cust-icon:focus {
+border-color: #404bbf;
+color: #404bbf;
+}
+
+
+
+.cust-item-link {
+fill: currentColor;
+}
+
 /*---------------Footer--------------*/
 
 .footer-logo-page{
