@@ -4,6 +4,7 @@
 --accent-color: #4D5AE5;
 --page-background-color: #FFFFFF;
 --btn-portfolio: #E7E9FC;
+--customers-icon: #8E8F99;
 }
 
 ul{
@@ -296,6 +297,25 @@ justify-content: center;
 gap: 24px;
 
 } 
+
+/* -----------customers------------------- */
+.customers {
+font-size: 36px;
+line-height: 1.11;
+color: var(--title-text-color);
+margin-bottom: 72px; 
+text-align: center;
+}
+.customers-item {
+display: flex; 
+gap: 24px; 
+}
+
+.customers-icon{
+width: calc((100% - 120px) / 6);
+height: 88px;
+color: var(--customers-icon);
+}
 
 /*---------------Footer--------------*/
 
