@@ -361,6 +361,10 @@ fill: currentColor;
 
 /*---------------Footer--------------*/
 
+.footer-logo-network{
+display: flex;
+}
+
 .footer-icon{
 width: 208px;
 height: 80px;
