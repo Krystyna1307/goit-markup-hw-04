@@ -363,6 +363,7 @@ fill: currentColor;
 
 .footer-logo-network{
 display: flex;
+align-items: baseline;
 }
 
 .footer-icon{
