@@ -21,6 +21,7 @@ body{
 font-family: 'Roboto',sans-serif;    
 background-color: var(--page-background-color);
 color: var(--primary-text-color);
+
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -249,9 +250,7 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-
 margin-bottom: 72px;
-
 color: var(--title-text-color);
 }
 .employees-card {
@@ -315,8 +314,10 @@ fill: var(--svg-fill);
 background-color: #404bbf; 
 }
 
-/* -----------customers------------------- */ */
-h2 {
+/* -----------customers------------------- */ 
+
+.customers-text {
+
 font-size: 36px;
 line-height: 1.11;
 color: var(--title-text-color);
@@ -352,8 +353,6 @@ color: var(--customers-icon);
 border-color: #404bbf;
 color: #404bbf;
 }
-
-
 
 .cust-item-link {
 fill: currentColor;
