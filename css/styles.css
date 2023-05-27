@@ -288,7 +288,6 @@ width: 264px;
 
 .name-specialty {
 padding-top: 32px;
-
 text-align: center;
 }
 
@@ -371,7 +370,6 @@ width: 208px;
 height: 80px;
 }
 
-
 .footer-logo-page{
 background-color: var(--title-text-color);
 padding: 100px 0;
@@ -397,7 +395,6 @@ max-width: 264px;
 
 }
 .footer {
-
 margin-right: 120px;
 }
 
@@ -412,6 +409,11 @@ margin-bottom: 16px;
 
 .footer-list-soc {
 gap: 16px;
+}
+
+.footer-focus:hover,
+.footer-focus:focus {
+background-color: #31d0aa;
 }
 
 /*------------Portfolio--------*/
