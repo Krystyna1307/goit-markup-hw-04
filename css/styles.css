@@ -316,7 +316,7 @@ background-color: #404bbf;
 }
 
 /* -----------customers------------------- */ */
-.customers {
+h2 {
 font-size: 36px;
 line-height: 1.11;
 color: var(--title-text-color);
