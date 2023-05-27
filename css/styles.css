@@ -362,6 +362,12 @@ fill: currentColor;
 
 /*---------------Footer--------------*/
 
+.footer-icon{
+width: 208px;
+height: 80px;
+}
+
+
 .footer-logo-page{
 background-color: var(--title-text-color);
 padding: 100px 0;
@@ -389,6 +395,7 @@ max-width: 264px;
 .footer{
 align-items: baseline;
 margin-right: 120px;
+margin-left: 156px;
 }
 .footer-name{
 font-weight: 500;
